@@ -380,7 +380,7 @@ background-color: #fff;
 
 .contacts__items{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 50%);
+    grid-template-columns: repeat(1, 100%);
     padding: 25px;
 }
 

@@ -474,22 +474,28 @@ width: 200px;
     height: 35px;
     font-size: 15px; 
 }
+.contacts__items{
+    margin: 0 auto;
+}
 .map{
     width: 100%;
+    order: 2;
+    margin: 0 auto;
 }
 .address{
     font-size: 15px;
-	margin-right: 15px;   
+	margin-right: 15px; 
+    padding-bottom: 10px; 
 }
 .contacts__text{
-	height: 90px;
+	height: 65px;
 }
 .contacts__text h2{
     font-size: 15px; 
 }
 .inform__sert{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+    grid-template-columns: repeat(3, minmax(150px, 250px));
 }
 .inform__sert img{
 	height: 240px;
@@ -566,11 +572,11 @@ width: 200px;
         padding: 15px;
         display: grid;
         gap:10px;
-        grid-template-columns: repeat(2, minmax(170px, 1fr));
+        grid-template-columns: repeat(2, minmax(170px, 250px));
     }
     .feedback__contaner img{
     border-radius: 5%;
-    width: 170px;
+    width: 200px;
     }
     /* Слайдер для призентации */
     .work__slider{
@@ -595,28 +601,31 @@ width: 200px;
         height: 35px;
         font-size: 15px; 
     }
+    .contacts__items{
+        margin: 0 auto;
+    }
     .map{
         width: 100%;
+        order: 2;
+        margin: 0 auto;
     }
     .address{
-        font-size: 12px;
-        margin-right: 15px;   
+        font-size: 15px;
+        margin-right: 15px; 
+        padding-bottom: 10px; 
     }
     .contacts__text{
-        width: 450px;
-    }
-    .contacts__text h1{
-        font-size: 20px;
+        height: 65px;
     }
     .contacts__text h2{
-        font-size: 12px; 
+        font-size: 15px; 
     }
     .inform__sert{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
     }
     .inform__sert img{
-        height: 120px;
+        height: 170px;
     }
     /* стилизация popup */
     .popup__content{
@@ -719,24 +728,21 @@ width: 200px;
         height: 25px;
         font-size: 12px;
     }
+    .contacts__items{
+        margin: 0 auto;
+    }
     .map{
         width: 100%;
+        order: 2;
+        margin: 0 auto;
     }
     .address{
-        font-size: 10px;
-        margin-right: 15px;   
-    }
-    .contacts__items{
-        width: 320px;
-        grid-template-columns: repeat(auto-fit, 1fr);
-        padding: 5px;
+        font-size: 12px;
+        margin-right: 15px; 
+        padding-bottom: 10px; 
     }
     .contacts__text{
-        width: 250px;
-    }
-    
-    .contacts__text h2{
-        font-size: 15px; 
+        height: 65px;
     }
     .inform__sert{
         display: grid;
@@ -853,24 +859,21 @@ width: 200px;
         height: 25px;
         font-size: 12px;
     }
+    .contacts__items{
+        margin: 0 auto;
+    }
     .map{
         width: 100%;
+        order: 2;
+        margin: 0 auto;
     }
     .address{
-        font-size: 10px;
-        margin-right: 15px;   
-    }
-    .contacts__items{
-        width: 320px;
-        grid-template-columns: repeat(auto-fit, 1fr);
-        padding: 5px;
+        font-size: 12px;
+        margin-right: 15px; 
+        padding-bottom: 10px; 
     }
     .contacts__text{
-        width: 250px;
-    }
-    
-    .contacts__text h2{
-        font-size: 15px; 
+        height: 65px;
     }
     .inform__sert{
         display: grid;

@@ -1,0 +1,892 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1366px) {
+		/* Header и титульная страница*/
+	.nav{
+		font-size: 25px;
+	}
+	.wrapper{
+		height: 910px;
+	}
+	
+	.inform__contaner__img img{
+		height: 850px;
+	}
+	.inform__text__titel h1{
+		font-size: 60px;
+	}
+	.inform__text__titel p{
+		font-size: 25px;
+	}
+	.fag__items__center{
+	width: 50%;
+	order: 2;
+	}
+	/* Стилизация контактов */
+	.contacts__items{
+		margin-right: 25px;
+	}
+	.map{
+		width: 100%;
+	}
+	.inform__sert{
+		padding: 25px;
+	}
+	.inform__sert img{
+		height: 350px;
+	}
+}
+@media only screen and (max-width: 1152px) {
+	/* Стилизация ссылок */
+.nav{
+    font-size: 20px;
+ }
+/* Header и титульная страница*/
+.wrapper{
+    height: 760px;
+}
+.inform__contaner__img img{
+    height: 700px;  
+}
+.inform__text__titel h1{
+    font-size: 40px;
+}
+.inform__text__titel p{
+    font-size: 18px;
+}
+/* Секция обо мне  */
+.about__header{
+    height: 50px;
+    font-size: 20px; 
+}
+.contaner__about{
+    width: 100%;
+}
+/* section__fag*/
+.section__fag{
+    width: 100%;
+}
+.fag__header{
+	height: 50px;
+    font-size: 20px; 
+}
+.contaner__fag img{
+	height: 590px;
+}
+.fag__items__center {
+    width: 50%;
+}
+.contaner__fag a{
+	font-size: 20px;
+}
+/* Секция отзывы клиентов */
+
+.feedback__header{
+	height: 50px;
+    font-size: 25px;      
+}
+.feedback__contaner{
+    gap: 5px;
+}
+.feedback__contaner img{
+border-radius: 5%;
+width: 320px;
+}
+/* Слайдер для призентации */
+.work__slider{
+    height: 450px;
+}
+.work__header{
+	height: 50px;
+    font-size: 20px; 
+}
+.slider{ 
+	width: 100%;
+    height: 350px;
+}
+
+.sleder__item img{
+    height: 350px;
+}
+/* Стилизация контактов */
+
+.contacts__text__header{
+	height: 50px;
+    font-size: 20px; 
+}
+.map{
+    width: 100%;
+}
+.address{
+    font-size: 20px;
+	margin-right: 15px;   
+}
+.tacts__text h1{
+    font-size: 30px;
+}
+.contacts__text h2{
+    font-size: 18px; 
+}
+.inform__sert{
+    padding: 20px;
+}
+.inform__sert img{
+	height: 290px;
+}
+/* стилизация popup */
+.popup__content{
+    max-width: 600px;
+}
+.popup__titel{
+    font-size: 22px;
+}
+.popup__text{
+    font-size: 18px;
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px){
+/* Стилизация ссылок */
+.nav{
+    font-size: 18px;
+ }
+/* Header и титульная страница*/
+.wrapper{
+    height: 610px;
+}
+.inform__contaner__img img{
+    height: 550px;  
+}
+.inform__contaner__text{
+	margin-left: 35px;
+}
+.inform__text__titel h1{
+    font-size: 35px;
+}
+.inform__text__titel p{
+    font-size: 18px;
+}
+/* Секция обо мне  */
+.about__header{
+    height: 45px;
+    font-size: 20px; 
+}
+.contaner__about{
+    width: 100%;
+}
+/* section__fag*/
+.section__fag{
+    width: 100%;
+}
+.fag__header{
+	height: 45px;
+    font-size: 20px; 
+}
+.contaner__fag img{
+	height: 450px;
+}
+.fag__items__center {
+    width: 50%; 
+}
+.contaner__fag a{
+	font-size: 14px;
+}
+/* Секция отзывы клиентов */
+.feedback__header{
+	height: 45px;
+    font-size: 20px;     
+}
+.feedback__contaner{
+    gap: 15px;
+}
+.feedback__contaner{
+    padding: 15px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+.feedback__contaner img{
+    width: 250px;
+}
+
+/* Слайдер для призентации */
+.work__slider{
+    height: 400px;
+}
+.work__header{
+	height: 45px;
+    font-size: 20px;
+}
+.slider{ 
+	width: 100%;
+    height: 400px;
+}
+.sleder__item img{
+    height: 300px;
+}
+/* Стилизация контактов */
+
+.contacts__text__header{
+	height: 45px;
+    font-size: 20px;
+}
+.map{
+    width: 100%;
+}
+.address{
+    font-size: 20px;
+	margin-right: 15px;   
+}
+.contacts__text h1{
+    font-size: 30px;
+}
+.contacts__text h2{
+    font-size: 18px; 
+}
+.inform__sert{
+    padding: 20px;
+}
+.inform__sert img{
+	height: 250px;
+}
+
+/* стилизация popup */
+.popup__content{
+    max-width: 500px;
+}
+.popup__titel{
+    font-size: 19px;
+}
+.popup__text{
+    font-size: 14px;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 812px){
+	/* Стилизация ссылок */
+.nav{
+    font-size: 13px;
+ }
+/* Header и титульная страница*/
+.wrapper{
+    height: 510px;
+}
+.inform__contaner__img img{
+    height: 450px;  
+}
+
+.inform__text__titel{
+	width: 400px;
+}
+.inform__text__titel h1{
+    font-size: 22px;
+}
+.inform__text__titel p{
+    font-size: 14px;
+}
+/* Секция обо мне  */
+.about__header{
+    font-size: 15px; 
+}
+.prise__items{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    padding: 15px;    
+  }
+/* section__fag*/
+.section__fag{
+    width: 100%;
+    height: 385px;
+}
+.contaner__fag{
+    height: 385px;
+}
+.fag__header{
+    font-size: 15px;  
+}
+.contaner__fag img{
+	height: 340px;
+}
+.contaner__fag a{
+	font-size: 15px;
+	line-height: 1.6;
+}
+.contaner__fag br{
+	display: none;
+}
+/* Секция отзывы клиентов */
+
+.feedback__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px;     
+}
+.feedback__contaner{
+    padding: 15px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+.feedback__contaner img{
+border-radius: 5%;
+width: 200px;
+}
+/* Слайдер для призентации */
+.work__slider{
+    height: 275px;
+}
+.work__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px; 
+}
+.slider{ 
+	width: 100%;
+    height: 265px;
+}
+.sleder__item img{
+    height: 200px;
+}
+/* Стилизация контактов */
+
+.contacts__text__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px; 
+}
+.map{
+    width: 100%;
+}
+.address{
+    font-size: 15px;
+	margin-right: 15px;   
+}
+.contacts__text{
+	height: 90px;
+}
+.contacts__text h2{
+    font-size: 15px; 
+}
+.inform__sert img{
+	height: 200px;
+}
+/* стилизация popup */
+.popup__content{
+    max-width: 450px;
+}
+.popup__titel{
+    font-size: 20px;
+}
+.popup__text{
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 768px){
+	/* Стилизация ссылок */
+.nav{
+    font-size: 13px;
+ }
+/* Header и титульная страница*/
+.wrapper{
+    height: 510px;
+}
+.inform__contaner__img img{
+    height: 450px;  
+}
+
+.inform__text__titel{
+	width: 400px;
+}
+.inform__text__titel h1{
+    font-size: 22px;
+}
+.inform__text__titel p{
+    font-size: 14px;
+}
+/* Секция обо мне  */
+.about__header{
+    font-size: 15px; 
+}
+.prise__items{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    padding: 15px;    
+  }
+/* section__fag*/
+.section__fag{
+    width: 100%;
+    height: 385px;
+}
+.contaner__fag{
+    height: 385px;
+}
+.fag__header{
+    font-size: 15px;  
+}
+.contaner__fag img{
+	height: 340px;
+}
+.contaner__fag a{
+	font-size: 15px;
+	line-height: 1.6;
+}
+.contaner__fag br{
+	display: none;
+}
+/* Секция отзывы клиентов */
+
+.feedback__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px;     
+}
+.feedback__contaner{
+    padding: 15px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+.feedback__contaner img{
+border-radius: 5%;
+width: 200px;
+}
+/* Слайдер для призентации */
+.work__slider{
+    height: 275px;
+}
+.work__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px; 
+}
+.slider{ 
+	width: 100%;
+    height: 265px;
+}
+.sleder__item img{
+    height: 200px;
+}
+/* Стилизация контактов */
+
+.contacts__text__header{
+	padding-top: 10px;
+    height: 35px;
+    font-size: 15px; 
+}
+.map{
+    width: 100%;
+}
+.address{
+    font-size: 15px;
+	margin-right: 15px;   
+}
+.contacts__text{
+	height: 90px;
+}
+.contacts__text h2{
+    font-size: 15px; 
+}
+.inform__sert{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+}
+.inform__sert img{
+	height: 240px;
+}
+/* стилизация popup */
+.popup__content{
+    max-width: 450px;
+}
+.popup__titel{
+    font-size: 20px;
+}
+.popup__text{
+    font-size: 15px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 667px){
+    .nav{
+        font-size: 8.5px;
+     }
+    /* Header и титульная страница*/
+    .wrapper{
+        height: 390px;
+    }
+    .inform__contaner__img img{
+        height: 330px;
+
+    }  
+    .inform__text__titel{
+        width: 230px;
+    }
+    .inform__text__titel h1{
+        font-size: 13px;
+    }
+    .inform__text__titel p{
+        font-size: 8px;
+    }
+    /* Секция обо мне  */
+    .about__header{
+        font-size: 15px; 
+    }
+    .prise__items{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        padding: 15px;    
+      }
+    /* section__fag*/
+    .section__fag{
+        width: 100%;
+        height: 280px;
+    }
+    .fag__header{
+        font-size: 15px;  
+    }
+    .contaner__fag img{
+        height: 235px;
+    }
+    .contaner__fag a{
+        font-size: 12px;
+        line-height: 1.1;
+    }
+    .contaner__fag br{
+        display: none;
+    }
+    /* Секция отзывы клиентов */
+    
+    .feedback__header{
+        padding-top: 10px;
+        height: 35px;
+        font-size: 15px;     
+    }
+    .feedback__contaner{
+        padding: 15px;
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(2, minmax(170px, 1fr));
+    }
+    .feedback__contaner img{
+    border-radius: 5%;
+    width: 170px;
+    }
+    /* Слайдер для призентации */
+    .work__slider{
+        height: 275px;
+    }
+    .work__header{
+        padding-top: 10px;
+        height: 35px;
+        font-size: 15px; 
+    }
+    .slider{ 
+        width: 100%;
+        height: 265px;
+    }
+    .sleder__item img{
+        height: 200px;
+    }
+    /* Стилизация контактов */
+    
+    .contacts__text__header{
+        padding-top: 10px;
+        height: 35px;
+        font-size: 15px; 
+    }
+    .map{
+        width: 100%;
+    }
+    .address{
+        font-size: 12px;
+        margin-right: 15px;   
+    }
+    .contacts__text{
+        width: 450px;
+    }
+    .contacts__text h1{
+        font-size: 20px;
+    }
+    .contacts__text h2{
+        font-size: 12px; 
+    }
+    .inform__sert{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .inform__sert img{
+        height: 120px;
+    }
+    /* стилизация popup */
+    .popup__content{
+        max-width: 350px;
+    }
+    .popup__titel{
+        font-size: 15px;
+    }
+    .popup__text{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .nav{
+        font-size: 6.5px;
+     }
+    /* Header и титульная страница*/
+    .wrapper{
+        height: 260px;
+    }
+    .inform__contaner__img img{
+        height: 200px;  
+    }  
+    .inform__text__titel{
+        width: 150px;
+        margin-left: -10px;
+        padding-top: 20px;
+    }
+    .inform__text__titel h1{
+        font-size: 10px;
+    }
+    .inform__text__titel p{
+        font-size: 8px;
+    }
+    /* Секция обо мне  */
+    .about__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px; 
+    }
+    /* section__fag*/
+    .section__fag{
+        width: 100%;
+        height: 205px;
+    }
+    .fag__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;  
+    }
+    .contaner__fag img{
+        height: 180px;
+    }
+    .contaner__fag a{
+        font-size: 10px;
+        line-height: 1.1;
+    }
+    .contaner__fag br{
+        display: none;
+    }
+    /* Секция отзывы клиентов */
+    .feedback__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;     
+    }
+    .feedback__contaner{
+        padding: 20px;
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(2, minmax(100px, 200px));
+    }
+    .feedback__contaner img{
+    border-radius: 5%;
+    width: 150px;
+    }
+    /* Слайдер для призентации */
+    .work__slider{
+        height: 270px;
+    }
+    .work__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px; 
+    }
+    .slider{ 
+        width: 100%;
+        height: 290px;
+    }
+    .sleder__item img{
+        height: 190px;
+    }
+    .slider .slick-dots li button{
+        width: 8px;
+        height: 8px;
+        }
+    /* Стилизация контактов */  
+    .contacts__text__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .map{
+        width: 100%;
+    }
+    .address{
+        font-size: 10px;
+        margin-right: 15px;   
+    }
+    .contacts__items{
+        width: 320px;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        padding: 5px;
+    }
+    .contacts__text{
+        width: 250px;
+    }
+    
+    .contacts__text h2{
+        font-size: 15px; 
+    }
+    .inform__sert{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+    .inform__sert img{
+        height: 150px;
+    }
+    /* стилизация popup */
+    .popup__content{
+        max-width: 200px;
+    }
+    .popup__titel{
+        font-size: 10px;
+    }
+    .popup__text{
+        font-size: 6px;
+    }
+} 
+/* Custom, iPhone Retina*/
+@media only screen and (max-width: 375px) {
+    .nav{
+        font-size: 5.5px;
+     }
+    /* Header и титульная страница*/
+    .wrapper{
+        height: 260px;
+    }
+    .inform__contaner__img img{
+        height: 200px;  
+    }  
+    .inform__text__titel{
+        width: 150px;
+        margin-left: -20px;
+        padding-top: 20px;
+    }
+    .inform__text__titel h1{
+        font-size: 8px;
+    }
+    .inform__text__titel p{
+        font-size: 5px;
+    }
+    /* Секция обо мне  */
+    .about__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px; 
+    }
+    .prise__items{
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(3, minmax(90px, 1fr));
+        padding: 8px;    
+      }
+    /* section__fag*/
+    .section__fag{
+        width: 100%;
+        height: 205px;
+    }
+    .fag__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;  
+    }
+    .contaner__fag img{
+        height: 160px;
+    }
+    .contaner__fag a{
+        font-size: 8px;
+        line-height: 1;
+    }
+    .contaner__fag br{
+        display: none;
+    }
+    /* Секция отзывы клиентов */
+    .feedback__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;     
+    }
+    .feedback__contaner{
+        padding: 15px;
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+    }
+    .feedback__contaner img{
+    border-radius: 5%;
+    width: 120px;
+    }
+    /* Слайдер для призентации */
+    .work__slider{
+        height: 270px;
+    }
+    .work__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px; 
+    }
+    .slider{ 
+        width: 100%;
+        height: 290px;
+    }
+    .sleder__item img{
+        height: 190px;
+    }
+    .slider .slick-dots li button{
+        width: 8px;
+        height: 8px;
+        }
+    /* Стилизация контактов */  
+    .contacts__text__header{
+        padding-top: 7px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .map{
+        width: 100%;
+    }
+    .address{
+        font-size: 10px;
+        margin-right: 15px;   
+    }
+    .contacts__items{
+        width: 320px;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        padding: 5px;
+    }
+    .contacts__text{
+        width: 250px;
+    }
+    
+    .contacts__text h2{
+        font-size: 15px; 
+    }
+    .inform__sert{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+    .inform__sert img{
+        height: 120px;
+    }
+    /* стилизация popup */
+    .popup__content{
+        max-width: 200px;
+    }
+    .popup__titel{
+        font-size: 10px;
+    }
+    .popup__text{
+        font-size: 6px;
+    }
+} 

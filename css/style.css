@@ -1,0 +1,489 @@
+/* Обнуляющий стиль */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:active,a:focus{outline: none;}
+nav, footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body.lock{overflow: hidden;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-family: 'Scada', sans-serif;
+font-weight: 400;}
+
+
+/* Стилизация ссылок */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    height: 65px;
+    margin: 0 auto;
+    font-family: 'Scada', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+ }
+.nav__link{
+    color:wheat;
+    position: relative;
+    transition: color .3s linear;
+}
+.nav__link:hover{
+    color:rgb(212, 199, 199);
+}
+.nav__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+
+    position: absolute;
+    background-color:rgb(212, 199, 199);
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.nav__link:hover:after{
+    display: block;
+    opacity: 1;
+}
+
+/* Header и титульная страница*/
+.wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    background: url('img/Slide/ФОН4.jpg');
+    background-size: contain;
+}
+.header{
+    width: 100%;
+    height: 60px;
+}
+.inform{
+    width: 100%;
+}
+.inform__contaner{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+.inform__contaner__img{
+    width: 100%;
+    height: 910px;
+    order: 2;
+    position: relative;
+}
+.inform__contaner__img img{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    height: 910px;
+    padding-bottom: 0;
+}
+.inform__contaner__text{
+    width: 100%;
+    order: 1;
+}
+.inform__text__titel{
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: gold;
+    line-height: 1.6;
+}
+.inform__text__titel h1{
+    font-size: 65px;
+    text-align: center;
+}
+.inform__text__titel p{
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Секция обо мне  */
+.section__about{
+    background:url("img/Slide/ФОН4.jpg");
+    background-size: contain;
+}
+.about__header{
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 35px;
+    color:gold;
+    background: rgba(128, 128, 128, 0.541);   
+}
+.prise__items{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  padding: 15px;    
+}
+.prise__item{
+    position: relative;
+    padding: 0px 0px 90% 0px;
+}
+.prise__item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: ridge wheat;
+    border-radius: 5px;
+}
+
+/* section__fag*/
+.section__fag{
+    width: 100%;
+    background:url('img/Slide/ФОН4.jpg');
+    background-size: contain;
+}
+.contaner__fag{
+    display: flex;
+    width: 100%;
+}
+.fag__header{
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 35px;
+    color:gold;
+    background: rgba(128, 128, 128, 0.541);   
+}
+.fag__item__left{
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    order: 1;
+}
+.fag__item__rigth{
+    width: 25%;
+    height: 100%;
+    order: 3;
+    text-align: right;
+}
+.fag__items__center{
+width: 50%;
+height: 100%;
+order: 2;
+}
+.fag__item{
+    width: 100%;
+    height: 400px;
+    color:rgba(8, 8, 8);
+    font-family: 'Scada', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 25px;
+    margin: 0 auto;
+    text-align: center;
+} 
+.fag__titel{
+    color: gold;
+    text-transform: uppercase;
+    font-style: normal; 
+}
+
+/* Секция отзывы клиентов */
+.section__feedback{
+    background:url("img/Slide/ФОН4.jpg");
+    background-size: cover;
+}
+.feedback__header{
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 35px;
+    color:gold;
+    background: rgba(128, 128, 128, 0.541);     
+}
+.feedback__contaner{
+    padding: 15px;
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 auto;
+}
+.feedback__item{
+   justify-items: center;
+    position: relative;
+    padding: 0px 0px 80% 0px;
+}
+/* .feedback__item__big{
+    grid-column: span 2;
+    grid-row: span 2;
+} */
+.feedback__item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Слайдер для призентации */
+.work__slider{
+    width: 100%;
+    background: url('img/Slide/ФОН4.jpg');
+    background-size: contain;
+    margin: 0 auto;
+}
+.work__header{
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 35px;
+    color:gold;
+    background: rgba(128, 128, 128, 0.541);   
+}
+.slider{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px 35px;
+}
+.sleder__item{
+    transition: all 0.6s ease 0s;
+    text-align: center;
+    opacity: 0.3;
+}
+.sleder__item img{
+    height: 450px;
+    border-radius: 35%;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.sleder__item.slick-center{
+opacity: 1;
+}
+.slider .slick-arrow{
+   position: absolute;
+   top:50%;
+   z-index: 10; 
+   font-size: 0;
+   width: 30px;
+   height: 75px;
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    background:url(img/Slide/sl-arrow_l.svg) 0 0 / 100% no-repeat;
+    margin-top: -60px;
+    
+}
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background:url(img/Slide/sl-arrow_r.svg) 0 0  / 100% no-repeat;
+    margin-top: -60px;
+}
+.slider .slick-arrow.slick-disabled{
+    opacity: 0.2;
+}
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 5px;
+}
+.slider .slick-dots li.slick-active{
+    background-color: transparent; 
+    width: 10px;
+    height: 10px;
+}
+.slider .slick-dots li button{
+font-size: 0;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #fff;
+}
+/* .slick-slider{}
+.slick-slider.slick-initialized{}
+.slick-slider.slick-dotted{} */
+/* .slick-slide{}
+.slick-slide.slick-active{}
+.slick-slide.slick-current{} */
+/* .slick-slide.slick-cloned{} */
+
+/* Стилизация контактов */
+.contaner__contacts{
+    width: 100%;
+    background: url("img/Slide/ФОН4.jpg");
+    background-size: contain;
+    color:wheat;
+}
+.contacts__text__header{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 35px;
+    background: rgba(128, 128, 128, 0.541);
+    color: gold;
+}
+
+.contacts__items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    padding: 25px;
+}
+
+.address{
+    padding-top: 15px;
+    text-justify: 1.4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px; 
+    text-align: center; 
+}
+.contacts__text{
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contacts__text h2{
+    text-align: center;
+    text-justify: 1.6;
+    font-family:'Scada', sans-serif;
+    font-size: 25px; 
+}
+.address a{
+    color: wheat;
+}
+.inform__sert{
+    padding: 10px;
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.sert{
+    position: relative;
+    padding: 0px 0px 100% 0px;
+}
+.sert img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+} 
+
+
+/* стилизация popup */
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+}
+.popup__body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup.open {
+  opacity: 1; 
+  visibility: visible; 
+}
+.popup.open .popup__content{
+    transform: perspective(600px) translate(0px, 0%) rotate(0deg);;
+    opacity: 1;
+} 
+.popup__content{
+    background:url('img/Slide/ФОН4.jpg');
+    background-size: 100%;
+    color:wheat;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100%) rotate(360deg);
+}
+.popup__close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+.popup__titel{
+    text-align: center;
+    font-family:'Scada', sans-serif;
+    font-size: 40px;
+    margin:0 px 0px 1em 0px;
+    padding-bottom: 30px;
+}
+.popup__text{
+    font-family:'Scada', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+

@@ -532,7 +532,7 @@ width: 200px;
         font-size: 13px;
     }
     .inform__text__titel p{
-        font-size: 8px;
+        font-size: 10px;
     }
     /* Секция обо мне  */
     .about__header{
@@ -642,7 +642,7 @@ width: 200px;
 }
 @media only screen and (max-width: 414px) {
     .nav{
-        font-size: 6.5px;
+        font-size: 7px;
      }
     /* Header и титульная страница*/
     .wrapper{
@@ -653,11 +653,11 @@ width: 200px;
     }  
     .inform__text__titel{
         width: 150px;
-        margin-left: -10px;
+        margin-left: -20px;
         padding-top: 20px;
     }
     .inform__text__titel h1{
-        font-size: 10px;
+        font-size: 12px;
     }
     .inform__text__titel p{
         font-size: 8px;
@@ -778,15 +778,15 @@ width: 200px;
         height: 200px;  
     }  
     .inform__text__titel{
-        width: 150px;
+        width: 130px;
         margin-left: -20px;
         padding-top: 20px;
     }
     .inform__text__titel h1{
-        font-size: 8px;
+        font-size: 10px;
     }
     .inform__text__titel p{
-        font-size: 5px;
+        font-size: 8px;
     }
     /* Секция обо мне  */
     .about__header{

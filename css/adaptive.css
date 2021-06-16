@@ -476,6 +476,7 @@ width: 200px;
 }
 .contacts__items{
     margin: 0 auto;
+    grid-template-columns: repeat(1, 100%)
 }
 .map{
     width: 100%;
@@ -603,6 +604,7 @@ width: 200px;
     }
     .contacts__items{
         margin: 0 auto;
+        grid-template-columns: repeat(1, 100%)
     }
     .map{
         width: 100%;
@@ -730,6 +732,7 @@ width: 200px;
     }
     .contacts__items{
         margin: 0 auto;
+        grid-template-columns: repeat(1, 100%)
     }
     .map{
         width: 100%;
@@ -861,6 +864,7 @@ width: 200px;
     }
     .contacts__items{
         margin: 0 auto;
+        grid-template-columns: repeat(1, 100%)
     }
     .map{
         width: 100%;

@@ -51,7 +51,7 @@ font-weight: 400;}
 .nav__link{
     color:wheat;
     position: relative;
-    transition: color .3s linear;
+    transition: color .4s linear;
 }
 .nav__link:hover{
     color:rgb(212, 199, 199);

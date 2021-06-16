@@ -496,7 +496,7 @@ width: 200px;
 }
 .inform__sert{
     display: grid;
-    grid-template-columns: repeat(3, minmax(150px, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
 }
 .inform__sert img{
 	height: 240px;
@@ -624,7 +624,7 @@ width: 200px;
     }
     .inform__sert{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
     }
     .inform__sert img{
         height: 170px;

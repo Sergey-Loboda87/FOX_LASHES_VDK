@@ -380,7 +380,7 @@ background-color: #fff;
 
 .contacts__items{
     display: grid;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(2, 50%);
     padding: 25px;
 }
 
@@ -409,7 +409,6 @@ background-color: #fff;
 .inform__sert{
     padding: 10px;
     display: grid;
-  
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 .sert{
